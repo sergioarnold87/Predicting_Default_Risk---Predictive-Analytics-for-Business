@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="54" />
+        <Position x="54" y="90" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -49,7 +49,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="2">
       <GuiSettings>
-        <Position x="174" y="294" />
+        <Position x="174" y="330" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -70,11 +70,11 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="270" y="390" />
+        <Position x="270" y="426" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Sergio\AppData\Local\Temp\Engine_1252_2f21c0a1c6984566ba32722b46f73890_\Engine_3444_305250e714504332902699375d96cf1e_.yxdb</TempFile>
+          <TempFile>C:\Users\Sergio\AppData\Local\Temp\Engine_3000_5fb35f4562104cf1ae2337751340716e_\Engine_3904_88115c0eb4434849a555b6ceabe5b3e9_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -98,11 +98,11 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="270" y="234" />
+        <Position x="270" y="270" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Sergio\AppData\Local\Temp\Engine_1252_2f21c0a1c6984566ba32722b46f73890_\Engine_3444_3209e0d71c134683b6db071295218611_.yxdb</TempFile>
+          <TempFile>C:\Users\Sergio\AppData\Local\Temp\Engine_3000_5fb35f4562104cf1ae2337751340716e_\Engine_3904_d6543e9397e047e991deea8453fb3d8e_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -126,7 +126,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="PortfolioPluginsGui.ComposerRender.PortfolioComposerRender">
-        <Position x="270" y="294" />
+        <Position x="270" y="330" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -158,7 +158,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="6">
       <GuiSettings>
-        <Position x="222" y="54" />
+        <Position x="222" y="90" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -208,7 +208,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="8">
       <GuiSettings>
-        <Position x="246" y="138" />
+        <Position x="246" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -230,11 +230,11 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="330" y="162" />
+        <Position x="330" y="198" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Sergio\AppData\Local\Temp\Engine_1252_2f21c0a1c6984566ba32722b46f73890_\Engine_3444_37baa2b2b52a47989def0744b9d6580c_.yxdb</TempFile>
+          <TempFile>C:\Users\Sergio\AppData\Local\Temp\Engine_3000_5fb35f4562104cf1ae2337751340716e_\Engine_3904_df98c1374a6a49d68e129c7ab67828c5_.yxdb</TempFile>
           <Layout>
             <View1>
               <Hints>
@@ -253,7 +253,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="PortfolioPluginsGui.ComposerRender.PortfolioComposerRender">
-        <Position x="330" y="90" />
+        <Position x="330" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -285,7 +285,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.PearsonCorrelation.PearsonCorrelation">
-        <Position x="570" y="18" />
+        <Position x="570" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -310,14 +310,13 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="342" y="30" />
+        <Position x="342" y="66" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <OrderChanged value="True" />
           <CommaDecimal value="False" />
           <SelectFields>
-            <SelectField field="Age-years" selected="True" />
             <SelectField field="Concurrent-Credits" selected="False" />
             <SelectField field="Telephone" selected="False" />
             <SelectField field="Duration-in-Current-address" selected="False" />
@@ -325,19 +324,20 @@ Query=`Sheet1$`</DefaultAnnotationText>
             <SelectField field="Occupation" selected="False" />
             <SelectField field="Guarantors" selected="False" />
             <SelectField field="No-of-dependents" selected="False" />
-            <SelectField field="Purpose" selected="True" />
-            <SelectField field="No-of-Credits-at-this-Bank" selected="True" />
-            <SelectField field="Length-of-current-employment" selected="True" />
-            <SelectField field="Credit-Application-Result" selected="True" />
-            <SelectField field="Value-Savings-Stocks" selected="True" />
-            <SelectField field="Instalment-per-cent" selected="True" />
-            <SelectField field="Most-valuable-available-asset" selected="True" />
-            <SelectField field="Account-Balance" selected="True" />
-            <SelectField field="Duration-of-Credit-Month" selected="True" />
-            <SelectField field="Credit-Amount" selected="True" />
-            <SelectField field="Type-of-apartment" selected="True" />
             <SelectField field="Age_years" selected="False" rename="Age-years" type="Double" size="8" />
+            <SelectField field="Age-years" selected="True" />
+            <SelectField field="Type-of-apartment" selected="True" />
+            <SelectField field="Credit-Amount" selected="True" />
+            <SelectField field="Duration-of-Credit-Month" selected="True" />
+            <SelectField field="Account-Balance" selected="True" />
+            <SelectField field="Most-valuable-available-asset" selected="True" />
+            <SelectField field="Length-of-current-employment" selected="True" />
+            <SelectField field="Value-Savings-Stocks" selected="True" />
+            <SelectField field="Credit-Application-Result" selected="True" />
             <SelectField field="Payment-Status-of-Previous-Credit" selected="True" />
+            <SelectField field="No-of-Credits-at-this-Bank" selected="True" />
+            <SelectField field="Purpose" selected="True" />
+            <SelectField field="Instalment-per-cent" selected="True" />
             <SelectField field="*Unknown" selected="True" />
           </SelectFields>
         </Configuration>
@@ -351,11 +351,11 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="666" y="18" />
+        <Position x="666" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Sergio\AppData\Local\Temp\Engine_1252_2f21c0a1c6984566ba32722b46f73890_\Engine_3444_5cdf86afebb544428f87a3029b0e7147_.yxdb</TempFile>
+          <TempFile>C:\Users\Sergio\AppData\Local\Temp\Engine_3000_5fb35f4562104cf1ae2337751340716e_\Engine_3904_4ec2988181954333b91cb4b5864f7ae4_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -379,7 +379,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="14">
       <GuiSettings>
-        <Position x="570" y="78" />
+        <Position x="570" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -395,19 +395,16 @@ Query=`Sheet1$`</DefaultAnnotationText>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
     </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="666" y="66" />
+        <Position x="666" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Sergio\AppData\Local\Temp\Engine_1252_2f21c0a1c6984566ba32722b46f73890_\Engine_3444_57ae2e3f3eb7463eb2bc4b9229822a42_.yxdb</TempFile>
+          <TempFile>C:\Users\Sergio\AppData\Local\Temp\Engine_3000_5fb35f4562104cf1ae2337751340716e_\Engine_3904_25611241eb344a93821903f458c9508e_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -431,11 +428,11 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="666" y="126" />
+        <Position x="666" y="162" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Sergio\AppData\Local\Temp\Engine_1252_2f21c0a1c6984566ba32722b46f73890_\Engine_3444_9f2cd9e8fdcd4fcfa9719c943a3596e5_.yxdb</TempFile>
+          <TempFile>C:\Users\Sergio\AppData\Local\Temp\Engine_3000_5fb35f4562104cf1ae2337751340716e_\Engine_3904_df69311e21d04db29d440b7dfa972525_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -459,7 +456,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="18">
       <GuiSettings>
-        <Position x="570" y="210" />
+        <Position x="570" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -476,19 +473,16 @@ Query=`Sheet1$`</DefaultAnnotationText>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="Predictive Tools\Association_Analysis.yxmc" />
     </Node>
     <Node ToolID="19">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="666" y="174" />
+        <Position x="666" y="210" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Sergio\AppData\Local\Temp\Engine_1252_2f21c0a1c6984566ba32722b46f73890_\Engine_3444_7198c41cab0b418480ebe8fac275de5f_.yxdb</TempFile>
+          <TempFile>C:\Users\Sergio\AppData\Local\Temp\Engine_3000_5fb35f4562104cf1ae2337751340716e_\Engine_3904_7e05e995849144969177db3910413fb2_.yxdb</TempFile>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -500,11 +494,11 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="20">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="666" y="246" />
+        <Position x="666" y="282" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Sergio\AppData\Local\Temp\Engine_1252_2f21c0a1c6984566ba32722b46f73890_\Engine_3444_2de35604f5c84997b6c51890e5b8b7cb_.yxdb</TempFile>
+          <TempFile>C:\Users\Sergio\AppData\Local\Temp\Engine_3000_5fb35f4562104cf1ae2337751340716e_\Engine_3904_90ab1ca38821443fba0e1e10c1f3655e_.yxdb</TempFile>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -516,7 +510,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="21">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="570" y="318" />
+        <Position x="570" y="354" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -534,11 +528,11 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="666" y="318" />
+        <Position x="666" y="354" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Sergio\AppData\Local\Temp\Engine_1252_2f21c0a1c6984566ba32722b46f73890_\Engine_3444_ac2cd2707c6c4f2c8d95dfdee667e3af_.yxdb</TempFile>
+          <TempFile>C:\Users\Sergio\AppData\Local\Temp\Engine_3000_5fb35f4562104cf1ae2337751340716e_\Engine_3904_a8e4fa7a3b6c4572913fb3ef4124e473_.yxdb</TempFile>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -547,6 +541,32 @@ Query=`Sheet1$`</DefaultAnnotationText>
         </Annotation>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="414" y="-6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">E:\Udacity\Classification Models bank  - Sergio\Clean_Data_training.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Clean_Data_training.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
   </Nodes>
   <Connections>
@@ -605,6 +625,10 @@ Query=`Sheet1$`</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="12" Connection="Output" />
       <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="14" Connection="Output" />
