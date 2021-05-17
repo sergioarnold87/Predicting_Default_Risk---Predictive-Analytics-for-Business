@@ -1,5 +1,5 @@
 # Predicting Default Risk - Predictive Analytics for Business
- tercer proyecto del nanogrado de Udacity
+ Cuarto proyecto del nanogrado de Udacity
  
  
 Trabaja para un banco pequeño y es responsable de determinar si los clientes son solventes para otorgar un préstamo. Por lo general, su equipo recibe 200 solicitudes de préstamo por semana y las aprueba a mano.
